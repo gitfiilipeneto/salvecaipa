@@ -1,4 +1,4 @@
-import react from "react"
+import React from "react"
 import styled from 'styled-components'
 import logo from '../images/logosalve.png'
 
