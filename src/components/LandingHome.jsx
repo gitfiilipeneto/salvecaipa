@@ -1,5 +1,6 @@
 import React from "react"
 import styled from 'styled-components'
+import Button from './BuyButton'
 import logo from '../images/logosalve.png'
 
 const Container = styled.div`
@@ -21,9 +22,11 @@ const StyledImage = styled.img`
     margin: 5px;
     width:450px;
     height: auto;
+    
     @media(max-width: 780px){
         width:280px;
     }
+   
 `
 
 
@@ -31,7 +34,7 @@ const Home = () => {
     return(
         <Container>
             <StyledImage src = {logo}/>
-            <p> Home </p>
+            <Button/>
         </Container>
     )
 }
