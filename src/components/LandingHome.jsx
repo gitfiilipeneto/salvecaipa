@@ -34,7 +34,7 @@ const Home = () => {
     return(
         <Container>
             <StyledImage src = {logo}/>
-            <Button/>
+            {/* <Button/> */}
         </Container>
     )
 }
