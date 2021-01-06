@@ -2,24 +2,13 @@ import React from "react"
 import styled from 'styled-components'
 import Button from './BuyButton'
 import logo from '../images/logosalve.png'
+import Container from '../supp/DefaultContainer'
 
-const Container = styled.div`
-    width:100vw;
-    max-width:100%;
-    height:100vh;
-    maxHeight:100%;
-    margin: unset;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-`
 
 const StyledImage = styled.img`
     
-    margin: 5px;
+    margin: 45px;
     width:450px;
     height: auto;
     
@@ -32,9 +21,11 @@ const StyledImage = styled.img`
 
 const Home = () => {
     return(
-        <Container>
+        <Container primary>
             <StyledImage src = {logo}/>
-            {/* <Button/> */}
+            <div>
+                <Button/>
+            </div>
         </Container>
     )
 }

@@ -2,7 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 
 const DefaultButton = styled.button`
-    background-collor: red;
+background: #b7472a;
+border: 1px solid #b7472a;
+color: #fff;
 `
 
 const Button = () => {
