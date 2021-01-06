@@ -7,7 +7,7 @@ import Container from '../supp/DefaultContainer'
 const ProductsPage = () =>{
     return(
         <Container>
-            <h1>Teste</h1>
+            <h1>Teste </h1>
         </Container>
     )
 }
