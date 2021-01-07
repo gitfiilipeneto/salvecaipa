@@ -1,7 +1,7 @@
 import React from "react"
 import styled from 'styled-components'
 import Button from './BuyButton'
-import logo from '../images/logosalve.png'
+import logo from '../images/salve_logo-preto.png'
 import Container from '../supp/DefaultContainer'
 
 
@@ -21,7 +21,7 @@ const StyledImage = styled.img`
 
 const Home = () => {
     return(
-        <Container primary>
+        <Container>
             <StyledImage src = {logo}/>
             <div>
                 <Button/>
