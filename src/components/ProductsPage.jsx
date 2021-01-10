@@ -7,7 +7,7 @@ import Cards from './ProductsCards'
 const ProductsPage = () =>{
     return(
         <Container>
-            <Cards title={"Caipa 600"} imagem = {"imagem"} description = {"descrição caipa 600"}></Cards>
+            <Cards title={"Caipa 600"} imagem = {"imagem"}></Cards>
         </Container>
     )
 }
