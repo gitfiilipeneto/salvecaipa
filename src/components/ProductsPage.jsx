@@ -2,12 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 import Container from '../supp/DefaultContainer'
 import Cards from './ProductsCards'
+import AddMore from './renderCardsButton'
 
 
 const ProductsPage = () =>{
     return(
-        <Container>
-            <Cards title={"Caipa 600"} imagem = {"imagem"}></Cards>
+        <Container verticalAlign>
+ 
+            <Cards/>
+
+            <div>
+                <AddMore/>
+            </div>
         </Container>
     )
 }

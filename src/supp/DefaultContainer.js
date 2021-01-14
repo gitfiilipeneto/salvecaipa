@@ -10,8 +10,10 @@ margin: unset;
 display: flex;
 justify-content: center;
 align-items: center;
-flex-direction: column;
-background:${props => props.primary ? "Black" : "white"} ;
-`
 
+flex-direction: ${props => props.verticalAlign ? "row" : "column"};
+background:${props => props.primary ? "Black" : "white"};
+
+`
+//colocar regras de responsividade
 export default Container
