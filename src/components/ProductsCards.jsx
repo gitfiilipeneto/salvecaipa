@@ -21,7 +21,7 @@ const StyledTable = styled.table`
 
 width:100%;   
 border: 1px solid black;
-border-collapse: collapse;
+// border-collapse: collapse;
 margin-top: 5px;
 
 
@@ -48,7 +48,21 @@ margin-top: 5px;
 
 const Styledh1 = styled.h1``;
 
+
+
 class Cards extends Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    };
+  }
+  
+  alteraQuantidade(){
+
+  }
+
   render() {
     return (
       <Cardzin>
@@ -67,8 +81,8 @@ class Cards extends Component {
               >
                 Qual Caipa?
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <p class="dropdown-item">
                   600ml
                 </p>
@@ -95,9 +109,10 @@ class Cards extends Component {
                 <div>
                   <td>
                     {SABORES.map((sabor, index) => (
-                      <li key={index}>
+                      <li key={index} >
                         <StyledButton>-</StyledButton>
-                        <StyledButton>+</StyledButton>
+                        
+                        <StyledButton onClick={() => this.setState({ count: this.state.count + 1 })}>+</StyledButton>
                       </li>
                     ))}
                   </td>

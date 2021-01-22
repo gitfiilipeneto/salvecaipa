@@ -5,7 +5,7 @@ import "./supp/DefaultStyle.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './components/navBar';
 import ProductsPage from './components/ProductsPage';
-import MyComponent from './components/renderCardsButton';
+
 
 
 ReactDOM.render(

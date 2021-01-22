@@ -11,9 +11,9 @@ const ProductsPage = () =>{
  
             <Cards/>
 
-            <div>
+            {/* <div>
                 <AddMore/>
-            </div>
+            </div> */}
         </Container>
     )
 }

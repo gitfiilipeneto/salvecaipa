@@ -1,9 +1,9 @@
-let caipa600 = 18
+// import {useState} from 'react'
 
-let caipa1L = 25
+// let quantidadeInicial = 0
 
-let valorFinal = valorFinal
+// const [quantidade, alteraQuantidade] = useState(quantidadeInicial)
 
-function Compra()
+// <button onClick = {() => alteraQuantidade(quantidade+1)}>
+    
 
-//voltar aqui dps
