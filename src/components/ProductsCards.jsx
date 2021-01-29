@@ -49,19 +49,15 @@ margin-top: 5px;
 const Styledh1 = styled.h1``;
 
 
-
 class Cards extends Component {
   
   constructor(props) {
     super(props);
     this.state = {
-      count: 0
+      quantidade: 0
     };
   }
   
-  alteraQuantidade(){
-
-  }
 
   render() {
     return (
@@ -110,9 +106,9 @@ class Cards extends Component {
                   <td>
                     {SABORES.map((sabor, index) => (
                       <li key={index} >
-                        <StyledButton>-</StyledButton>
-                        
-                        <StyledButton onClick={() => this.setState({ count: this.state.count + 1 })}>+</StyledButton>
+                        <StyledButton onClick={ () => this.setState({ quantidade: this.state.quantidade - 1 })}>-</StyledButton>
+                        {this.state.quantidade}
+                        <StyledButton onClick={ () => this.setState({ quantidade: this.state.quantidade + 1 })}>+</StyledButton>
                       </li>
                     ))}
                   </td>

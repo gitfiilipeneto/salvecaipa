@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Container from '../supp/DefaultContainer'
 import Cards from './ProductsCards'
 import AddMore from './renderCardsButton'
+import NewProductCards from './NewProductCards'
 
 
 const ProductsPage = () =>{
@@ -11,9 +12,11 @@ const ProductsPage = () =>{
  
             <Cards/>
 
-            {/* <div>
+
+
+            <div>
                 <AddMore/>
-            </div> */}
+            </div>
         </Container>
     )
 }

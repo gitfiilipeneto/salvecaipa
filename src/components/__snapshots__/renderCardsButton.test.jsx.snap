@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    Mais uma
+  </button>
+</div>
+`;
+
+exports[`Link changes the class when hovered 2`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    Mais uma
+  </button>
+  <div
+    className="sc-bdfBwQ jQtnUZ"
+  >
+    <div>
+      <img />
+      <div
+        class="dropdown"
+      >
+        <button
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="btn btn-secondary btn-sm dropdown-toggle dropdown-toggle-split"
+          data-toggle="dropdown"
+          id="dropdownMenuButton"
+          type="button"
+        >
+          Qual Caipa?
+        </button>
+        <div
+          aria-labelledby="dropdownMenuButton"
+          class="dropdown-menu"
+        >
+          <p
+            class="dropdown-item"
+          >
+            600ml
+          </p>
+          <p
+            class="dropdown-item"
+          >
+            1L
+          </p>
+        </div>
+      </div>
+      <div>
+        <table
+          className="sc-dlfnbm bjUGZT"
+        >
+          <tr>
+            <th>
+              Sabor
+            </th>
+            <th>
+              teste
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <li>
+                Morango
+              </li>
+              <li>
+                Limão
+              </li>
+              <li>
+                Maracujá
+              </li>
+              <li>
+                Abacaxi
+              </li>
+              <li>
+                Vinho com Limão
+              </li>
+            </td>
+            <div>
+              <td>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    -
+                  </button>
+                  0
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    -
+                  </button>
+                  0
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    -
+                  </button>
+                  0
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    -
+                  </button>
+                  0
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    -
+                  </button>
+                  0
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    +
+                  </button>
+                </li>
+              </td>
+            </div>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table
+          className="sc-dlfnbm bjUGZT"
+        >
+          <tr>
+            <th>
+              Especiaria
+            </th>
+            <th>
+              Teste
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <li>
+                Hortelã
+              </li>
+              <li>
+                Gengibre
+              </li>
+              <li>
+                Pimenta
+              </li>
+            </td>
+            <div>
+              <td>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    -
+                  </button>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    -
+                  </button>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    -
+                  </button>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    +
+                  </button>
+                </li>
+              </td>
+            </div>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Link changes the class when hovered 3`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    Mais uma
+  </button>
+  <div
+    className="sc-bdfBwQ jQtnUZ"
+  >
+    <div>
+      <img />
+      <div
+        class="dropdown"
+      >
+        <button
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="btn btn-secondary btn-sm dropdown-toggle dropdown-toggle-split"
+          data-toggle="dropdown"
+          id="dropdownMenuButton"
+          type="button"
+        >
+          Qual Caipa?
+        </button>
+        <div
+          aria-labelledby="dropdownMenuButton"
+          class="dropdown-menu"
+        >
+          <p
+            class="dropdown-item"
+          >
+            600ml
+          </p>
+          <p
+            class="dropdown-item"
+          >
+            1L
+          </p>
+        </div>
+      </div>
+      <div>
+        <table
+          className="sc-dlfnbm bjUGZT"
+        >
+          <tr>
+            <th>
+              Sabor
+            </th>
+            <th>
+              teste
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <li>
+                Morango
+              </li>
+              <li>
+                Limão
+              </li>
+              <li>
+                Maracujá
+              </li>
+              <li>
+                Abacaxi
+              </li>
+              <li>
+                Vinho com Limão
+              </li>
+            </td>
+            <div>
+              <td>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    -
+                  </button>
+                  0
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    -
+                  </button>
+                  0
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    -
+                  </button>
+                  0
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    -
+                  </button>
+                  0
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    -
+                  </button>
+                  0
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                    onClick={[Function]}
+                  >
+                    +
+                  </button>
+                </li>
+              </td>
+            </div>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table
+          className="sc-dlfnbm bjUGZT"
+        >
+          <tr>
+            <th>
+              Especiaria
+            </th>
+            <th>
+              Teste
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <li>
+                Hortelã
+              </li>
+              <li>
+                Gengibre
+              </li>
+              <li>
+                Pimenta
+              </li>
+            </td>
+            <div>
+              <td>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    -
+                  </button>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    -
+                  </button>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    +
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    -
+                  </button>
+                  <button
+                    className="sc-gsTCUz dAWXAT"
+                  >
+                    +
+                  </button>
+                </li>
+              </td>
+            </div>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
