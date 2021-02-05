@@ -1,24 +1,17 @@
-import React from 'react'
-import styled from 'styled-components'
+import React, { Component } from 'react'
 import Container from '../supp/DefaultContainer'
 import Cards from './ProductsCards'
-import AddMore from './renderCardsButton'
-import NewProductCards from './NewProductCards'
+// import AddMore from './renderCardsButton'
 
+class ProductsPage extends Component{
 
-const ProductsPage = () =>{
-    return(
-        <Container verticalAlign>
- 
-            <Cards/>
-
-
-
-            <div>
-                <AddMore/>
-            </div>
-        </Container>
-    )
+    render(){
+        return(
+            <Container>
+                <Cards/>
+            </Container>
+        )
+    }
 }
 
 export default ProductsPage
